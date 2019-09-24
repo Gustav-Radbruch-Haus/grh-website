@@ -1,0 +1,31 @@
+Title: Summer fest
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: 349aaepe
+  location: GRH
+  from: 2019-08-24 14:00
+  to: 2019-08-25 00:00

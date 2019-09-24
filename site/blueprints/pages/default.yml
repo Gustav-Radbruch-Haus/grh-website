@@ -1,0 +1,22 @@
+title: Default Page
+preset: page
+
+status:
+  draft: true
+  unlisted:
+    label: Hidden Page
+    text: The page is not listed in the main menu
+  listed:
+    label: Menu Page
+    text: The page is listed in the main menu
+
+fields:
+  headline:
+    label: Headline
+    type: text
+    help: This is the officially used headline. If not given, the page title is used.
+  text:
+    label: Text
+    type: markdown
+    size: large
+  security: fields/kerli81.securedpages.pageconfiguration

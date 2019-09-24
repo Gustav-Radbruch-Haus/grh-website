@@ -1,0 +1,31 @@
+Title: Painting Lessons
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: ljfd2ltn
+  location: Creative Workshop Room
+  from: 2019-08-10 15:00
+  to: 2019-08-10 18:00

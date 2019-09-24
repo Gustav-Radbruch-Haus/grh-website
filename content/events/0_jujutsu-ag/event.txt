@@ -1,0 +1,31 @@
+Title: Jujutsu AG
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: ovadv2ig
+  location: Sports Hall
+  from: 2019-08-15 19:00
+  to: 2019-08-15 20:30

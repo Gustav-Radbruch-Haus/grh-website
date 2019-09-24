@@ -1,0 +1,7 @@
+type: pages
+headline: Events
+parent: site.find("events")
+sortBy: from asc
+template: event
+empty: No events yet
+sortBy: title asc

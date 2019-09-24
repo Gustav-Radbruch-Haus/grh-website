@@ -1,0 +1,31 @@
+Title: Workout AG
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: 9lrshrj5
+  location: Sports Hall
+  from: 2019-08-15 18:00
+  to: 2019-08-15 19:00

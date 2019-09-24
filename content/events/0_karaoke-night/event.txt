@@ -1,0 +1,33 @@
+Title: Karaoke Night
+
+----
+
+Link: 
+
+----
+
+Cover:
+
+- >
+  62217031_173641576978738_650992977648287744_o.jpg
+
+----
+
+Text:
+
+- Freshly cooked ramen noodles
+- First volunteers get rewarded!
+
+----
+
+Dates:
+
+- 
+  autoid: 71hai7df
+  location: GRH Bar
+  from: 2019-06-14 20:00
+  to: ""
+
+----
+
+Location: GRH Bar

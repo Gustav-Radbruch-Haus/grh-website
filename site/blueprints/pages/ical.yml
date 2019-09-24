@@ -1,0 +1,9 @@
+title: iCal Generator
+pages: false
+options:
+  preview: false
+  changeStatus: false
+  changeSlug: false
+  changeTitle: false
+  delete: false
+  update: false

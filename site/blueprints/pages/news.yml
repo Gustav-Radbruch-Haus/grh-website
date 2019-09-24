@@ -1,0 +1,40 @@
+title: News
+icon: 📖
+pages:
+  template:
+    - article
+
+options:
+  url: false
+  status: true
+
+
+tabs:
+  articles:
+    label: Articles
+    icon: document
+    columns:
+      - width: 1/2
+        sections:
+          drafts:
+            extends: sections/news
+            headline: Drafts
+            status: draft
+
+          unlisted:
+            extends: sections/news
+            headline: In Review
+            status: unlisted
+
+      - width: 1/2
+        sections:
+          listed:
+            extends: sections/news
+            headline: Published
+            status: listed
+
+  settings:
+    label: Settings
+    icon: cog
+    fields: 
+      security: fields/kerli81.securedpages.pageconfiguration

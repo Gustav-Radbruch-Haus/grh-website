@@ -1,0 +1,6 @@
+type: pages
+headline: Groups
+parent: site.find("groups")
+template: group
+empty: No Groups yet
+sortBy: title asc

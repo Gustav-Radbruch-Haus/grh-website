@@ -1,0 +1,35 @@
+Title: Gustav-Radbruch-Haus
+
+----
+
+Footermenu:
+
+- 
+  selectpagetype: internal
+  externalurl: null
+  externalpagetitle: null
+  internalpage:
+    - imprint
+- 
+  selectpagetype: external
+  externalurl: >
+    https://www.facebook.com/groups/5394275645/
+  externalpagetitle: Facebook
+  internalpage: [ ]
+- 
+  selectpagetype: external
+  externalurl: https://www.instagram.com/grh_hh/
+  externalpagetitle: Instagram
+  internalpage: [ ]
+
+----
+
+Socialmedia:
+
+- 
+  channel: instagram
+  url: https://www.instagram.com/grh_hh/
+- 
+  channel: facebook
+  url: >
+    https://www.facebook.com/groups/5394275645/

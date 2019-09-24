@@ -1,0 +1,55 @@
+title: Groups
+icon: 👥
+files: false
+pages:
+  template:
+    - group
+
+options:
+  url: false
+  status: 
+    *: false
+    admin: true
+
+tabs:
+  content:
+    label: Content
+    icon: newspaper
+    fields:
+      headline:
+        label: Headline
+        type: text
+        help: This headline is shown on the page. It can be alternating to the title to be able to have some descriptive naming of the page shown.
+      text:
+        label: Text
+        type: markdown
+        help: A small foreword. Optional.
+
+  groups:
+    label: Groups
+    icon: users
+    columns:
+      - width: 1/2
+        sections:
+          drafts:
+            extends: sections/groups
+            headline: Drafts
+            status: draft
+
+          unlisted:
+            extends: sections/groups
+            headline: In Review
+            status: unlisted
+
+      - width: 1/2
+        sections:
+          listed:
+            extends: sections/groups
+            headline: Published
+            status: listed
+
+  settings:
+    label: Settings
+    icon: cog
+    fields: 
+      security: fields/kerli81.securedpages.pageconfiguration

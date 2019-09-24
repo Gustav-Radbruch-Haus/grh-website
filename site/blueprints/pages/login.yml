@@ -1,0 +1,38 @@
+title: Login page
+files: true
+preset: page
+icon: 🔐
+pages: false
+
+options:
+  changeStatus: false
+  changeSlug: false
+  changeTitle: false
+  delete: false
+
+fields:
+  text: 
+    label: Text
+    type: markdown
+  alert:
+    label: Alert text
+    type: text
+    default: Please check again your entered credentials
+  username:
+    label: Label for username
+    type: text
+    default: Email
+  password:
+    label: Label for password
+    type: text
+    default: Password
+  button:
+    label: Button text
+    type: text
+    default: Login
+  tenantuser:
+    label: User account of tenants
+    type: users 
+    help: the email and password of this user account is used as a shared secret.
+    multiple: false
+    default: info@grh-hamburg.de

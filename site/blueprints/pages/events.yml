@@ -1,0 +1,53 @@
+title: Events
+files: false
+icon: 📅
+pages:
+  template:
+    - event
+
+options:
+  url: false
+  status: true
+  delete: false
+
+tabs:
+  events:
+    label: Events
+    icon: calendar
+    
+    sections:
+      drafts:
+        headline: Drafts
+        type: pages
+        status: draft
+      unlisted:
+        headline: Unlisted events
+        type: pages
+        status: unlisted
+      listed:
+        headline: Listed events
+        type: pages
+        status: listed
+  content:
+    label: Page Content
+    icon: document
+    fields:
+        security: fields/kerli81.securedpages.pageconfiguration
+        emptyheadline:
+          label: Empty events list
+          type: headline
+        emptytitle:
+          label: Title
+          type: text
+          help: In case of there is no upcoming event, this title will be shown
+        emptytext:
+          label: Text
+          type: markdown
+          help: In case of there is no upcoming event, this title will be shown
+
+
+
+sidebar:
+  event:
+    label: Event Pages
+    type: pages

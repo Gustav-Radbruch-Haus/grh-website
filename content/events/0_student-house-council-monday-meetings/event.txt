@@ -1,0 +1,41 @@
+Title: Student House Council Monday Meetings
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: 4bbhm8ff
+  location: Study Hall
+  from: 2019-08-12 20:15
+  to: 2019-08-12 22:00
+- 
+  autoid: earjxyah
+  location: Study Hall
+  from: 2019-08-19 20:15
+  to: 2019-08-19 22:00
+- 
+  autoid: uqj1vswc
+  location: Study Hall
+  from: 2019-08-26 20:15
+  to: 2019-08-26 22:00

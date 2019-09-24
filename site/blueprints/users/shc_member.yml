@@ -1,0 +1,8 @@
+title: SHC member
+description: Member of the SHC group. Might not be able to make changes but could access additional information
+permissions:
+  access:
+    settings: false
+    users: false
+    panel: false
+    site: true

@@ -1,0 +1,27 @@
+Title: Tex Mex Cooking Event
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: Tex Mex Cooking in the tea room.
+
+----
+
+Dates:
+
+- 
+  autoid: 0dj039f1
+  location: Teestube (Tea room)
+  from: 2019-06-22 16:00
+  to: 2019-06-22 22:00
+
+----
+
+Location: Club Gustav

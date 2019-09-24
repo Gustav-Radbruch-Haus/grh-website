@@ -1,0 +1,8 @@
+title: User
+description: User group for frontend access
+permissions:
+  access:
+    settings: false
+    users: false
+    panel: false
+    site: true

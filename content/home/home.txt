@@ -1,0 +1,102 @@
+Title: Home
+
+----
+
+Headline: Hi there 👋
+
+----
+
+Blocks:
+
+- 
+  title: 🎉 Next events at GRH
+  _key: events
+  _uid: events_1561617190850_340
+- 
+  title: 🗞 News
+  _key: news
+  _uid: news_1561617201642_419
+- 
+  title: 🎒 Services
+  cards:
+    - 
+      title: Wiki
+      text: ""
+      icon: null
+      usergroups: ""
+      url: https://wiki.grh-hamburg.de
+      color:
+        background: '#11998e'
+        border: '#38ef7d'
+        text: white
+        key: quepal
+    - 
+      title: Rent stuff
+      text: ""
+      icon: null
+      usergroups: ""
+      url: >
+        https://eva.grh-hamburg.de/rentals/request/
+      color:
+        background: '#c21500'
+        border: '#ffc500'
+        text: white
+        key: kyoto
+    - 
+      title: Mail
+      text: ""
+      icon: null
+      usergroups: shc_member, admin
+      url: https://mail.grh-hamburg.de
+      color:
+        background: '#5f2c82'
+        border: '#49a09d'
+        text: white
+        key: calmdarya
+    - 
+      title: Project Boards
+      text: ""
+      icon: null
+      usergroups: shc_member, admin
+      url: https://projects.grh-hamburg.de
+      color:
+        background: '#C04848'
+        border: '#480048'
+        text: white
+        key: influenza
+    - 
+      title: EVA
+      text: ""
+      icon: null
+      usergroups: admin, shc_member
+      url: https://eva.grh-hamburg.de
+      color:
+        background: '#24C6DC'
+        border: '#514A9D'
+        text: white
+        key: mantle
+    - 
+      title: Cloud
+      text: ""
+      icon: null
+      usergroups: shc_member, admin
+      url: https://cloud.grh-hamburg.de/
+      color:
+        background: '#FC354C'
+        border: '#0ABFBC'
+        text: white
+        key: miaka
+  _key: cards
+  _uid: cards_1564899145718_405
+
+----
+
+Securedpageenabled: true
+
+----
+
+Securedpageroles: user, editor, admin
+
+----
+
+Text: 

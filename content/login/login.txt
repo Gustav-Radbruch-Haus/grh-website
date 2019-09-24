@@ -1,0 +1,35 @@
+Title: Login
+
+----
+
+Text: Please login to access the content.
+
+----
+
+Alert: Please check again your entered credentials
+
+----
+
+Username: Email
+
+----
+
+Password: Password
+
+----
+
+Button: Login
+
+----
+
+Tenantuser:
+
+- tenant@grh-hamburg.de
+
+----
+
+Errorusername: Please check again your email address
+
+----
+
+Errorpassword: Please check again your password

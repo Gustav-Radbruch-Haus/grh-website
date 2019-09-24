@@ -1,0 +1,85 @@
+title: Site
+unlisted: true
+pages:
+  template:
+    - home
+    - ical
+    - login
+    - news
+    - events
+    - default
+
+tabs:
+  pages:
+    label: Pages
+    icon: text
+    sections:
+      drafts:
+        headline: Drafts
+        type: pages
+        status: draft
+      unlisted:
+        headline: Unlisted pages
+        type: pages
+        status: unlisted
+      listed:
+        headline: Listed pages
+        type: pages
+        status: listed
+  sitesettings:
+    label: Site wide settings
+    icon: page
+    fields:
+      footermenu:
+        label: Footer menu
+        type: structure
+        sortable: true
+        columns:
+          selectpagetype:
+            width: 2/4
+          externalpagetitle:
+            width: 1/4
+          internalpage:
+            width: 1/4
+        fields:
+          selectpagetype:
+            label: Select if internal or external
+            type: select
+            options:
+              internal: Internal
+              external: External
+          externalurl:
+            label: URL to the external page
+            type: url
+            when: 
+              selectpagetype: external
+          externalpagetitle:
+            label: Title in the menu
+            type: text
+            when: 
+              selectpagetype: external
+          internalpage:
+            label: Internal page
+            type: pages
+            multiple: false
+            when: 
+              selectpagetype: internal
+      security: fields/kerli81.securedpages.pageconfiguration
+  meta:
+    label: Meta information
+    icon: meta
+    fields:
+      socialmedia:
+        label: Social Media accounts
+        type: structure
+        fields:
+          channel:
+            label: Social media channel
+            type: select
+            options:
+              instagram: Instagram
+              facebook: Facebook
+              whatsapp: Whatsapp
+          url:
+            label: URL to social media account
+            type: url

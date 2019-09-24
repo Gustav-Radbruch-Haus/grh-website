@@ -1,0 +1,36 @@
+Title: Billiard AG
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: 35kvj719
+  location: GRH Bar
+  from: 2019-08-14 19:00
+  to: 2019-08-14 21:00
+- 
+  autoid: tdunhiem
+  location: GRH Bar
+  from: 2019-08-21 19:00
+  to: 2019-08-21 21:00

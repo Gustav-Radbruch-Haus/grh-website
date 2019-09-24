@@ -1,0 +1,31 @@
+Title: Table Tennis AG
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
+
+----
+
+Link: 
+
+----
+
+Cover: 
+
+----
+
+Text: 
+
+----
+
+Dates:
+
+- 
+  autoid: u2ukvynz
+  location: Sports Hall
+  from: 2019-08-13 19:00
+  to: 2019-08-13 21:00

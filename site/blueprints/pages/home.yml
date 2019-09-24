@@ -1,0 +1,139 @@
+title: Home Page
+preset: page
+pages: false
+options:
+  changeStatus: false
+  changeSlug:
+    *: false
+    admin: true
+  changeTitle: 
+    *: false
+    admin: true
+  delete: false
+
+fields:
+  headline:
+    label: Headline
+    type: text
+  blocks:
+    type: builder
+    columns: 1
+    max: 10
+    fieldsets:
+      cards:
+        name: Application cards
+        preview:
+          snippet: blocks/cards
+          css: /assets/css/blocks/cards.css
+        help: Card representations for our beloved shiny digital services
+        fields:
+          title:
+            label: Title
+            type: text
+          cards:
+            label: Application cards
+            type: structure
+            fields:
+              title:
+                label: Card title
+                type: text
+              text:
+                label: Description
+                type: markdown
+                size: small
+                help: A short one-liner what the service is about
+              icon:
+                label: icon
+                type: icons
+              usergroups:
+                label: Visible for the following usergroups
+                type: multiselect
+                options: query
+                query:
+                  fetch: kirby.roles
+                  text: "{{ item.title }}"
+                  value: "{{ item.id }}"
+              url:
+                label: URL
+                type: url
+                help: URL to the online service
+              color:
+                label: Color for the card
+                type: color-palette
+                size: large
+                display: duo
+                unselect: false
+                default: kyoto
+                options:
+                  orange:
+                    background: '#f2709c'
+                    border: '#ff9472'
+                    text: white
+                  kyoto:
+                    background: '#c21500'
+                    border: '#ffc500'
+                    text: white
+                  miaka:
+                    background: '#FC354C'
+                    border: '#0ABFBC'
+                    text: white
+                  influenza:
+                    background: '#C04848'
+                    border: '#480048'
+                    text: white
+                  calmdarya:
+                    background: '#5f2c82'
+                    border: '#49a09d'
+                    text: white
+                  mantle:
+                    background: '#24C6DC'
+                    border: '#514A9D'
+                    text: white
+                  quepal:
+                    background: '#11998e'
+                    border: '#38ef7d'
+                    text: white
+      events:
+        name: Events
+        preview:
+          snippet: blocks/events
+          css: /assets/css/blocks/events.css
+        defaultView: preview
+        fields:
+          title:
+            label: Title of the events area
+            type: text
+      news:
+        name: News
+        preview:
+          snippet: blocks/news
+          css: /assets/css/blocks/news.css
+        defaultView: preview
+        fields:
+          title:
+            label: Title of the news area
+            type: text
+      text:
+        name: Text
+        preview:
+          snippet: blocks/text
+          css: /assets/css/blocks/text.css
+        defaultView: preview
+        fields:
+          title:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: markdown
+
+sidebar:
+  security: 
+    type: fields
+    fields:
+      security: fields/kerli81.securedpages.pageconfiguration
+  pages:
+    type: pages
+  files:
+    type: files
+  

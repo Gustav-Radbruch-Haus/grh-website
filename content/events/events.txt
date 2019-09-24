@@ -1,0 +1,87 @@
+Title: Events
+
+----
+
+Securedpageenabled: true
+
+----
+
+Securedpageroles: admin, editor, user
+
+----
+
+Emptytitle: No events
+
+----
+
+Emptytext: The next event will coming very soon!
+
+----
+
+Dates:
+
+- 
+  autoid: rfvg17b5
+  event:
+    - 
+      dragText: '(link: events/karaoke-night text: Karaoke Night)'
+      hasChildren: false
+      icon:
+        type: 📅
+        ratio: 3/2
+        back: pattern
+        color: '#c5c9c6'
+        cover: false
+        cards:
+          url: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-352x.jpg
+            352w,
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-864x.jpg
+            864w,
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-1408x.jpg
+            1408w
+        list:
+          url: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-38x38.jpg
+            1x,
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-76x76.jpg
+            2x
+        emoji: true
+      id: events/karaoke-night
+      image:
+        ratio: 3/2
+        back: pattern
+        cover: false
+        cards:
+          url: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-352x.jpg
+            352w,
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-864x.jpg
+            864w,
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-1408x.jpg
+            1408w
+        list:
+          url: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-38x38.jpg
+            1x,
+            http://localhost/media/pages/events/karaoke-night/473494197-1560403280/62217031-173641576978738-650992977648287744-o-76x76.jpg
+            2x
+      info: ""
+      link: /pages/events+karaoke-night
+      text: Karaoke Night
+      url: http://localhost/events/karaoke-night
+  location: Bar
+  from: 2019-06-14T20:00:00+00:00
+  to: 2019-06-15T00:00:00+00:00
+
+----
+
+Eventpages: 

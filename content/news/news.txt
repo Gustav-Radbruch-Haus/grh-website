@@ -1,0 +1,9 @@
+Title: News
+
+----
+
+Securedpageenabled: true
+
+----
+
+Securedpageroles: admin, editor, user
