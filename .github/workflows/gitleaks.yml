@@ -2,10 +2,5 @@ name: GitLeaks
 
 on: [push, pull_request]
 
-jobs:
-  gitleaks:
-    name: GitLeaks
-    runs-on: ubuntu-latest
-    steps:
-      - name: gitleaks-action
-        uses: eshork/gitleaks-action@v1.0.0
+- name: gitleaks-action
+  uses: eshork/gitleaks-action@v1.0.0
