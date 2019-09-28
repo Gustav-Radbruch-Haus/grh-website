@@ -34,7 +34,17 @@ tabs:
         type: files
         multiple: false
         query: page.images
+        width: 1/2
         cover: true
+
+      type:
+        label: Type
+        type: select
+        width: 1/2
+        options:
+          ag: Activity group
+          shc: Student House Council Team
+          official: Official (by Studierendenwerk)
 
       text:
         label: Text
