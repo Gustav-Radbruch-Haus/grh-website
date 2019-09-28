@@ -90,3 +90,20 @@
   -moz-backdrop-filter: $filter;
   backdrop-filter: $filter;
 }
+
+@function filters($filter, $value) {
+  @return #{$filter}#{"(" + $value + ")"};
+}
+
+$prefixes: "-webkit-", "-moz-", "-ms-", "-o-", null;
+
+@mixin prefixer($property, $value) {
+  @each $prefix in $prefixes {
+    #{$prefix}#{$property}: $value;
+  }
+}
+
+@mixin filter($properties) {
+  // Your vendor prefixing stuff here, I am using Bourbon:
+  @include prefixer(filter, $properties);
+}
