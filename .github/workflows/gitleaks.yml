@@ -1,3 +1,5 @@
+name: GitLeaks
+
 on: [push, pull_request]
 
 jobs:
