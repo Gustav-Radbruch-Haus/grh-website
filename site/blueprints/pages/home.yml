@@ -2,7 +2,9 @@ title: Home Page
 preset: page
 pages: false
 options:
-  changeStatus: false
+  changeStatus:
+    *: false
+    admin: true
   changeSlug:
     *: false
     admin: true
