@@ -6,7 +6,7 @@
       <p><?= page('events')->emptytext(); ?></p>
     </article>
     <?php else: ?>
-    <?php foreach (page('events')->upcoming() as $event): ?>
+    <?php foreach (page('events')->upcoming($data->limitBy()->value()) as $event): ?>
     <article class="event">
       <header class="event-header">
         <div>

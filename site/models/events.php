@@ -19,7 +19,7 @@ class EventsPage extends Page
     return $this->upcoming()[array_search($id, $this->getIds())];
   }
 
-    public function upcoming() {
+    public function upcoming($limitedBy = false) {
       $events = NULL;
       
       // Get the upcoming events of each event page and append them to one list
@@ -54,7 +54,12 @@ class EventsPage extends Page
       }
 
       // Sort events
-      if ($events != NULL) usort($events, "sortEventsByFromDate");
+      if ($events != NULL) {
+        usort($events, "sortEventsByFromDate");
+        if ($limitedBy != false && is_numeric($limitedBy) && $limitedBy != 0) {
+          $events = array_slice($events, 0, $limitedBy);
+        }
+      }
 
       return $events;
     }

@@ -105,6 +105,10 @@ fields:
           title:
             label: Title of the events area
             type: text
+          limitBy:
+            label: Maximum number of visible events
+            type: number
+            after: Events
       news:
         name: News
         preview:
