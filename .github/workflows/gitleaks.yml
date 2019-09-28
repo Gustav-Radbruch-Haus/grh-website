@@ -1,2 +1,0 @@
-- name: gitleaks-action
-  uses: eshork/gitleaks-action@v1.0.0
