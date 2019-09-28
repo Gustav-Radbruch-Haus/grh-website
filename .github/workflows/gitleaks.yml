@@ -1,6 +1,2 @@
-name: GitLeaks
-
-on: [push, pull_request]
-
 - name: gitleaks-action
   uses: eshork/gitleaks-action@v1.0.0
