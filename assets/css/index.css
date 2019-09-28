@@ -64,11 +64,11 @@ img {
   align-items: center;
 }
 
-.menu a {
+.mainNavigation a {
   margin: 0 .75rem;
 }
 
-.menu a[aria-current] {
+.mainNavigation a[aria-current] {
   border-bottom: 2px solid #000;
 }
 
@@ -80,7 +80,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
   }
-  .menu {
+  .mainNavigation {
     margin-right: -.75rem;
   }
 }

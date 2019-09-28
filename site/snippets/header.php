@@ -7,7 +7,7 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
-  <?= css(['assets/css/index.css', '@auto']) ?>
+  <?= css(['assets/css/index.css?v='.time(), '@auto']) ?>
 
 </head>
 <body>
@@ -17,10 +17,6 @@
       <a class="logo" href="<?= $site->url() ?>">
       <?= asset('assets/images/logo.svg'); ?><?= $site->title() ?></a>
 
-      <nav id="menu" class="menu">
-        <?php foreach ($site->children()->listed() as $item): ?>
-        <?= $item->title()->link() ?>
-        <?php endforeach ?>
-      </nav>
+      <?= snippet('mainNavigation') ?>
     </header>
 
