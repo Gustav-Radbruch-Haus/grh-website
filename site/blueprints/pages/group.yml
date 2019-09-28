@@ -1,0 +1,80 @@
+title: Group / AG / Team
+icon: 🎳
+files: true
+
+options:
+  url: true
+  status: true
+pages: false
+
+tabs:
+  content:
+    label: Content
+    icon: newspaper
+    fields:
+
+      headline:
+        label: Headline
+        type: text
+        help: This headline is shown on the page. It can be alternating to the title to be able to have some descriptive naming of the page shown.
+
+      contact:
+        label: Contact persons
+        width: 1/2
+        type: users
+
+      admin:
+        label: Administrator
+        type: users
+        width: 1/2
+        multiple: false
+
+      cover:
+        label: Cover image
+        type: files
+        multiple: false
+        query: page.images
+        cover: true
+
+      text:
+        label: Text
+        type: markdown
+        help: A small foreword. Optional.
+
+      events:
+        label: Events of this group
+        type: structure
+        sortBy: from asc
+        help: Add any date where this event will happen. Automatically sort by start date
+        fields:
+          autoid:
+            type: hidden
+            translate: false
+          location:
+            label: Location
+            type: select
+            required: true
+            options:
+              sportshall: Sports Hall
+              bar: Club Gustav Bar
+              tearoom: Tea Room
+              atrium: Atrium
+              backyard: Backyard
+              studyhall: Study hall
+          from:
+            label: Start
+            type: date
+            required: true
+            time: true
+            width: 1/2
+          to:
+            label: End
+            type: date
+            time: true
+            width: 1/2
+
+  settings:
+    label: Settings
+    icon: cog
+    fields: 
+      security: fields/kerli81.securedpages.pageconfiguration
