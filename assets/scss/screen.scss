@@ -1,0 +1,75 @@
+/*
+
+Theme Name: GRH Hamburg Website
+Theme URI: https://grh-hamburg.de
+Author: Christian Reichel
+Description: Stylesheet for the website
+Version: 1.0
+License: (c) grh-hamburg.de 2019. You are not allowed to copy any of this code outside of the project.
+
+*/
+
+@import "bourbon";
+@import "compass/reset";
+@import "_framework/all";
+@import "_snippets/all";
+
+////////////////////////////////////////////////////////////
+// Classes, Elements and all other stuff
+body {
+  background: $site-bg;
+  @include font-size($body-text-size);
+  font-family: $body-font;
+  color: $text-color;
+}
+
+/* Structures
+-------------------------------------------------------------- */
+
+.content,
+main,
+[role="main"] {
+  width: $max-width;
+  min-width: $min-width;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+.no-border {
+  border: none;
+}
+
+.left {
+  float: left;
+  width: 65%;
+
+  @media screen and (max-width: $breakpoint-phablet) {
+    width: 100%;
+    float: none;
+  }
+}
+
+aside {
+  width: 35%;
+  float: right;
+
+  @media screen and (max-width: $breakpoint-phablet) {
+    width: 100%;
+    float: none;
+  }
+
+  section {
+    margin-left: $margin;
+
+    @media screen and (max-width: $breakpoint-phablet) {
+      margin-left: 0px;
+    }
+  }
+}

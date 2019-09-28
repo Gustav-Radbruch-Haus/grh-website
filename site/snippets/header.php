@@ -7,16 +7,20 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
-  <?= css(['assets/css/index.css?v='.time(), '@auto']) ?>
+  <?= css(['assets/css/screen.css?v='.time(), '@auto']) ?>
 
 </head>
 <body>
 
-  <div class="page">
-    <header class="header">
-      <a class="logo" href="<?= $site->url() ?>">
-      <?= asset('assets/images/logo.svg'); ?><?= $site->title() ?></a>
-
-      <?= snippet('mainNavigation') ?>
-    </header>
+  <div class="container">
+    <div class="page">
+      <header class="header">
+        <div class="content">
+          <a class="logo" href="<?= $site->url() ?>">
+            <?= asset('assets/images/logo.svg'); ?>
+            <span class="title"><?= $site->title() ?></span>
+          </a>
+          <?= snippet('menu') ?>
+        </div>
+      </header>
 

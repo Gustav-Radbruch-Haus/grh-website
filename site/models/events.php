@@ -19,11 +19,18 @@ class EventsPage extends Page
     return $this->upcoming()[array_search($id, $this->getIds())];
   }
 
-    public function upcoming($limitedBy = false) {
+    public function upcoming($limitedBy = false, $filterByUid = null) {
       $events = NULL;
       
       // Get the upcoming events of each event page and append them to one list
-      foreach (site()->pages()->index()->template('group')->filter(function($e) {
+
+      if (is_string($filterByUid) && $filterByUid != "") {
+        $eventpages = site()->pages()->index()->template('group')->filterBy('uid', $filterByUid);
+      }
+      else {
+        $eventpages = site()->pages()->index()->template('group');
+      }
+      foreach ($eventpages->filter(function($e) {
         // filter for pages which have an upcoming date
         return $e->events()->toStructure()->filter(function($p) {
           $now = new DateTime('yesterday');
@@ -48,7 +55,8 @@ class EventsPage extends Page
             'to' => $date->to(),
             'location' => $date->location(),
             'event' => $eventpage,
-            'id' => $date->autoId()
+            'id' => $date->autoId(),
+            'url' => $eventpage->url()
           );
         }
       }

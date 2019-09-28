@@ -9,13 +9,19 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/config.rb": {
+		"ft": 131072,
+		"oA": 0,
+		"oAP": "/config.rb",
+		"oF": 0
+		},
 	"/css/blocks/cards.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/cards-min.css",
+		"oAP": "/css/blocks/cards.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -25,7 +31,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/events-min.css",
+		"oAP": "/css/blocks/events.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -35,7 +41,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/news-min.css",
+		"oAP": "/css/blocks/news.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -45,17 +51,37 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/text-min.css",
+		"oAP": "/css/blocks/text.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/index.css": {
+	"/css/ie.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/index-min.css",
+		"oAP": "/css/ie.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/print.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/screen.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/screen.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -65,7 +91,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/about-min.css",
+		"oAP": "/css/templates/about.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -75,7 +101,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/article-min.css",
+		"oAP": "/css/templates/article.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -85,7 +111,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/default-min.css",
+		"oAP": "/css/templates/default.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -95,7 +121,17 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/events-min.css",
+		"oAP": "/css/templates/events.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/templates/group.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/templates/group.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -105,7 +141,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/home-min.css",
+		"oAP": "/css/templates/home.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -115,7 +151,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/login-min.css",
+		"oAP": "/css/templates/login.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -125,9 +161,89 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/news-min.css",
+		"oAP": "/css/templates/news.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/fonts/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/LICENSE.txt",
+		"oF": 0
+		},
+	"/fonts/OpenSans-Bold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-Bold-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-ExtraBold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-ExtraBold-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-ExtraBoldItalic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-ExtraBoldItalic-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-Italic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-Italic-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-Light-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-Light-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-LightItalic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-LightItalic-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-Regular-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-Regular-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-Semibold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-Semibold-webfont.woff",
+		"oF": 0
+		},
+	"/fonts/OpenSans-SemiboldItalic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/OpenSans-SemiboldItalic-webfont.woff",
+		"oF": 0
 		},
 	"/images/logo.svg": {
 		"ft": 2097152,
@@ -139,6 +255,279 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/scss/_framework/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_blockquote.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_blockquote.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_button-group.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_button-group.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_button.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_code.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_code.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_config.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_config.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_form.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_form.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_grid-system.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_grid-system.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_input-group.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_input-group.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_input.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_input.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_table.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_table.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_textfields.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_textfields.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_framework/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_snippets/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_snippets/_card.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_card.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_snippets/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_snippets/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_snippets/_menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/blocks/cards.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -147,7 +536,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/cards.css",
+		"oAP": "/css/cards.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -160,7 +549,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/events.css",
+		"oAP": "/css/events.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -173,7 +562,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/news.css",
+		"oAP": "/css/news.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -186,12 +575,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/blocks/text.css",
+		"oAP": "/css/text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/index.scss": {
+	"/scss/print.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -199,7 +588,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/index.css",
+		"oAP": "/css/print.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/screen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/screen.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -212,7 +614,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/about.css",
+		"oAP": "/css/about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -225,7 +627,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/article.css",
+		"oAP": "/css/article.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -238,7 +640,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/default.css",
+		"oAP": "/css/default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -251,7 +653,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/events.css",
+		"oAP": "/css/events.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/templates/group.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/group.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -264,7 +679,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/home.css",
+		"oAP": "/css/home.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -277,7 +692,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/templates/login.css",
+		"oAP": "/css/login.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -289,8 +704,8 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/templates/news.css",
+		"oA": 1,
+		"oAP": "/css/news.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2137,7 +2552,7 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",

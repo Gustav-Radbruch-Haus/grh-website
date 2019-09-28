@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
 
+<main>
 <form method="post" action="<?= $page->url() ?>" class="form">
   <?php if($error): ?>
   <div class="error-text">
@@ -23,7 +24,7 @@
   </div>
   <?php echo csrf_field() ?>
 </form>
-
+</main>
 <script>
 let select = document.getElementById("role");
 let emailfield = document.getElementById("email");

@@ -7,10 +7,11 @@
   <div class="text">
     <?= $page->text()->kt() ?>
   </div>
-
-  <?php foreach ($page->children()->listed() as $group): ?>
-    <?= snippet('group/card', ['data' => $group]) ?>
-  <?php endforeach ?>
+  <div class="cards row">
+    <?php foreach ($page->children()->listed() as $group): ?>
+      <?= snippet('group/card', ['data' => $group]) ?>
+    <?php endforeach ?>
+  </div>
 </main>
 
 <?php snippet('footer') ?>

@@ -1,0 +1,80 @@
+/* Typography
+-------------------------------------------------------------- */
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: $heading-font;
+  margin-bottom: .5em;
+}
+
+h1 {
+  @include font-size($heading-text-size);
+}
+
+h2 {
+  @include font-size($heading-text-size - 5px);
+}
+
+h3 {
+  @include font-size($heading-text-size - 10px);
+  font-weight: bold;
+}
+
+h4 {
+  @include font-size($heading-text-size - 12px);
+}
+
+h5 {
+  font-weight: bold;
+}
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+/* Text elements */
+p {
+  margin-bottom: 1.5em;
+}
+b, strong {
+  font-weight: bold;
+}
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 5px $secondary solid;
+  margin: 0;
+  p {
+    padding: 20px;
+    text-align: left;
+  }
+}
+
+
+/* Links */
+a {
+  color: $link-color;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+  //color: lighten($link-color, 10%);
+  color: $link-color-hover;
+}
+
+nav li a {
+  text-decoration: none;
+}

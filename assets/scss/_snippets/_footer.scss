@@ -1,0 +1,79 @@
+.footer {
+  border-top: 1px solid $light-grey;
+  background: $light-grey;
+
+  margin: 1.5rem auto 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  height: 70px;
+  @media screen and (max-width: $breakpoint-smartphone) {
+    height: 130px;
+  }
+
+  .content {
+    padding: 1.5rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: $breakpoint-smartphone) {
+      display: block;
+    }
+  }
+
+  nav {
+    display: inline-block;
+    margin-left: auto;
+    ul {
+      list-style: none;
+      @media screen and (max-width: $breakpoint-smartphone) {
+        margin-top: 10px;
+      }
+    }
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      vertical-align: center;
+      @media screen and (max-width: $breakpoint-smartphone) {
+        margin: 0 10px;
+      }
+    }
+
+    a {
+      font-weight: bold;
+    }
+  }
+
+  .copyright {
+    display: inline-block;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+}
+
+// Code for main because of bottom footer
+.page {
+  padding-bottom: 120px; // Height of body + some extra pixels
+
+  @media screen and (max-width: $breakpoint-smartphone) {
+    padding-bottom: 150px;
+  }
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
