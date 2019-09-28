@@ -23,16 +23,16 @@ class EventsPage extends Page
       $events = NULL;
       
       // Get the upcoming events of each event page and append them to one list
-      foreach ($this->children()->index()->template('event')->filter(function($e) {
+      foreach (site()->pages()->index()->template('group')->filter(function($e) {
         // filter for pages which have an upcoming date
-        return $e->dates()->toStructure()->filter(function($p) {
+        return $e->events()->toStructure()->filter(function($p) {
           $now = new DateTime('yesterday');
           return $p->from()->toDate() > $now->getTimestamp();
         })->isEmpty() == false;
       }) as $eventpage) {
 
         // Get and filter dates which aren't valid anymore
-        $dates = $eventpage->dates()->toStructure()->filter(function($e) {
+        $dates = $eventpage->events()->toStructure()->filter(function($e) {
           $now = new DateTime('yesterday');
           return $e->from()->toDate() > $now->getTimestamp();
         });
