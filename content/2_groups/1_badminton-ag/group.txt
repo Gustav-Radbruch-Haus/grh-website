@@ -1,0 +1,50 @@
+Title: Badminton AG
+
+----
+
+Headline: Badminton AG
+
+----
+
+Contact:
+
+- tenant@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover:
+
+- >
+  23000190_1724155104275547_9081153501776262467_o.jpg
+
+----
+
+Type: ag
+
+----
+
+Text: Unsere Turnhalle lädt zum Badminton- oder Tischtennisspielen ein. Hier ist das Wichtigste natürlich der Spaß am Spiel, es können aber auch u. a. Grundlagen der Spieltaktik oder Schlagtechnik vermittelt werden. Anfänger wie Fortgeschrittene sind gleichermaßen willkommen!
+
+----
+
+Events:
+
+- 
+  autoid: xs04jvp9
+  location: sportshall
+  from: 2019-09-29 10:30
+  to: 2019-09-29 12:30
+
+----
+
+Securedpageenabled: true
+
+----
+
+Securedpageroles: admin, editor, shc_member, user

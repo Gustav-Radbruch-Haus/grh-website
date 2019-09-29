@@ -6,6 +6,13 @@ Text: Please login to access the content.
 
 ----
 
+Cover:
+
+- >
+  23000190_1724155104275547_9081153501776262467_o.jpg
+
+----
+
 Alert: Please check again your entered credentials
 
 ----

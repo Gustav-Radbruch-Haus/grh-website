@@ -1,0 +1,50 @@
+Title: Workout
+
+----
+
+Headline: Workout
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover:
+
+- >
+  25396060_1576943172395503_2434746088601618980_n.jpg
+
+----
+
+Type: ag
+
+----
+
+Text: Die Workout AG arbeitet mit einem ausgeklügelten Konzept, um mit verschiedensten Übungen die einzelnen Muskelpartien des Körpers zu trainieren. Zusätzlich zu der Organisation gibt es noch professionelle Anleitung. Wer also seine Muskeln stählen will und etwas für seine Gesundheit tun möchte, kann gerne zu den wöchentlichen Treffen der AG dazukommen und mittrainieren.
+
+----
+
+Events:
+
+- 
+  autoid: fg18ovgt
+  location: sportshall
+  from: 2019-10-03 18:00
+  to: 2019-10-03 19:00
+
+----
+
+Securedpageenabled: true
+
+----
+
+Securedpageroles: admin, editor, shc_member, user
