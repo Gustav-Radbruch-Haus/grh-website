@@ -1,0 +1,46 @@
+Title: Salsa
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover: 
+
+----
+
+Type: ag
+
+----
+
+Text:
+
+- To get to know new people
+- To discover new borders
+- To learn dancing and improve existing skills
+- Appropriate for beginners, intermediate and advanced dancers
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

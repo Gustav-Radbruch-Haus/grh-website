@@ -1,0 +1,48 @@
+Title: Ping Pong
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover:
+
+- >
+  61985610_874894202879886_7401621622752579717_n.jpg
+
+----
+
+Type: ag
+
+----
+
+Text:
+
+- Simply Ping pong
+- Nice atmosphere
+- Adequate for beginners and experts
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

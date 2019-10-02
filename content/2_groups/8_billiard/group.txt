@@ -1,0 +1,44 @@
+Title: Billiard
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover:
+
+- >
+  60333009_143674313359626_4999113889098385736_n.jpg
+
+----
+
+Type: ag
+
+----
+
+Text: 
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

@@ -1,0 +1,41 @@
+Title: Welcome Tutors
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover: 
+
+----
+
+Type: official
+
+----
+
+Text: 
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

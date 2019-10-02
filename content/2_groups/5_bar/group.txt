@@ -1,0 +1,46 @@
+Title: Bar
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover: 
+
+----
+
+Type: ag
+
+----
+
+Text:
+
+- Get to know new people and meet up with friends
+- Relax after a hard week of work
+- Play kicker and pool
+- Mixed music / best vibes
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

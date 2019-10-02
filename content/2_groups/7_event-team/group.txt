@@ -1,0 +1,44 @@
+Title: Event Team
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover:
+
+- >
+  67621319_10215646230134435_5728606535928512512_o.jpg
+
+----
+
+Type: shc
+
+----
+
+Text: 
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

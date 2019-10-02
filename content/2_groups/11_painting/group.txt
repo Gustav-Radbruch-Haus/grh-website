@@ -1,0 +1,44 @@
+Title: Painting
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover:
+
+- >
+  53720709_386942325474661_3237214265148440576_o.jpg
+
+----
+
+Type: ag
+
+----
+
+Text: 
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 

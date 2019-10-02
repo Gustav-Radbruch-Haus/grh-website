@@ -1,0 +1,46 @@
+Title: Ju-Jutsu
+
+----
+
+Headline: 
+
+----
+
+Contact:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Admin:
+
+- christian.reichel@grh-hamburg.de
+
+----
+
+Cover: 
+
+----
+
+Type: ag
+
+----
+
+Text:
+
+- Self-Defense for “everyday life”
+- Variety of classic and modern techniques
+- Improve level of fitness
+- Appropriate for beginners
+
+----
+
+Events: 
+
+----
+
+Securedpageenabled: false
+
+----
+
+Securedpageroles: 
