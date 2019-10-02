@@ -57,9 +57,18 @@ tabs:
         sortBy: from asc
         help: Add any date where this event will happen. Automatically sort by start date
         fields:
+
           autoid:
             type: hidden
             translate: false
+
+          title:
+            label: Title to event(Optional)
+
+            type: tags
+            options: query
+            query: site.children.published
+
           location:
             label: Location
             type: select
@@ -71,17 +80,23 @@ tabs:
               atrium: Atrium
               backyard: Backyard
               studyhall: Study hall
+
           from:
             label: Start
             type: date
             required: true
             time: true
             width: 1/2
+            
           to:
             label: End
             type: date
             time: true
             width: 1/2
+
+          text:
+            label: Event description (optional)
+            type: markdown
 
   settings:
     label: Settings

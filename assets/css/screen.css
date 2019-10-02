@@ -188,11 +188,7 @@ button,
 .textfield {
   outline: 0;
   position: relative;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
   border-radius: 15px; }
   input:disabled,
   textarea:disabled,
@@ -240,12 +236,8 @@ button {
 input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
 .textfield,
 textarea {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   border: solid #b3b3b3 1px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px; }
   input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]).hover,
@@ -258,16 +250,12 @@ textarea {
   textarea:focus,
   textarea:active {
     border-color: #5cd4db;
-    -moz-box-shadow: 0px 0px 5px black;
-    -webkit-box-shadow: 0px 0px 5px black;
     box-shadow: 0px 0px 5px black; }
   input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]):disabled,
   .textfield:disabled,
   textarea:disabled {
     border-color: #b3b3b3;
     background: #f2f2f2;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
     box-shadow: none; }
     input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]):disabled:focus, input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]):disabled.hover, input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]):disabled:active,
     .textfield:disabled:focus,
@@ -292,8 +280,6 @@ textarea {
     textarea.info:focus,
     textarea.info:active {
       border-color: #48cfad;
-      -moz-box-shadow: 0px 0px 5px #48cfad;
-      -webkit-box-shadow: 0px 0px 5px #48cfad;
       box-shadow: 0px 0px 5px #48cfad; }
   input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]).warning,
   .textfield.warning,
@@ -310,8 +296,6 @@ textarea {
     textarea.warning:focus,
     textarea.warning:active {
       border-color: #ffce54;
-      -moz-box-shadow: 0px 0px 5px #ffce54;
-      -webkit-box-shadow: 0px 0px 5px #ffce54;
       box-shadow: 0px 0px 5px #ffce54; }
   input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]).success,
   .textfield.success,
@@ -328,8 +312,6 @@ textarea {
     textarea.success:focus,
     textarea.success:active {
       border-color: #a0d468;
-      -moz-box-shadow: 0px 0px 5px #a0d468;
-      -webkit-box-shadow: 0px 0px 5px #a0d468;
       box-shadow: 0px 0px 5px #a0d468; }
   input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]).error,
   .textfield.error,
@@ -346,8 +328,6 @@ textarea {
     textarea.error:focus,
     textarea.error:active {
       border-color: #ed5565;
-      -moz-box-shadow: 0px 0px 5px #ed5565;
-      -webkit-box-shadow: 0px 0px 5px #ed5565;
       box-shadow: 0px 0px 5px #ed5565; }
 
 .radio,
@@ -446,11 +426,7 @@ input[type="submit"],
 button,
 .button {
   padding: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   border: solid #5cd4db 1px;
   *border: 0 !important;
@@ -469,7 +445,6 @@ button,
   -webkit-touch-callout: none;
   text-decoration: none;
   display: inline-block;
-  -ms-touch-action: manipulation;
   touch-action: manipulation;
   white-space: nowrap;
   vertical-align: middle;
@@ -479,15 +454,11 @@ button,
   input[type="submit"]:before,
   button:before,
   .button:before {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   input[type="button"]:after,
   input[type="submit"]:after,
   button:after,
   .button:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   input[type="button"].L,
   input[type="submit"].L,
@@ -717,14 +688,10 @@ button,
       .button-group.justified > button:before,
       .button-group.justified > .button:before,
       .button-group.justified > div:before {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box; }
       .button-group.justified > button:after,
       .button-group.justified > .button:after,
       .button-group.justified > div:after {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box; }
 
 .content-wrap {
@@ -1384,9 +1351,12 @@ button,
   .footer .content {
     padding: 1.5rem 0;
     text-align: center;
+    display: -webkit-box;
     display: flex;
-    justify-content: space-between;
-    align-items: center; }
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+            align-items: center; }
     @media screen and (max-width: 380px) {
       .footer .content {
         display: block; } }
@@ -1444,9 +1414,12 @@ body {
   text-align: center; }
   .header .content {
     position: relative;
+    display: -webkit-box;
     display: flex;
-    justify-content: space-between;
-    align-items: center; }
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+            align-items: center; }
   .header .title {
     margin: 0;
     padding: 0;
@@ -1495,7 +1468,7 @@ main {
 
 .card {
   margin-bottom: 20px; }
-  .card > a > div {
+  .card .card-body {
     border: 1px solid #f2f2f2;
     border-radius: 15px;
     overflow: hidden;
@@ -1503,14 +1476,18 @@ main {
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3);
     margin: 0;
     padding: 0;
-    transition-duration: 0.15s;
+    -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: ease-out; }
-    .card > a > div:hover {
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out; }
+    .card .card-body:hover {
       box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6); }
   .card img {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 300px; }
     @media screen and (max-width: 767px) {
       .card img {
@@ -1522,12 +1499,15 @@ main {
     padding: 1.25rem;
     word-wrap: break-word; }
   .card a {
-    text-decoration: none; }
+    text-decoration: none;
+    display: block; }
   .card h2 {
     margin: 0;
     padding: 0;
     font-size: 18px;
     font-weight: bold; }
+  .card h3 {
+    font-size: 14px; }
   .card.cover > a > div {
     height: 300px; }
     @media screen and (max-width: 767px) {
