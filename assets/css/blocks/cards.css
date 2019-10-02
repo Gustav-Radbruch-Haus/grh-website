@@ -1,12 +1,10 @@
 body {
   padding: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 a {
   color: currentColor;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .cards-container {
   width: 100%;
@@ -19,12 +17,12 @@ a {
   margin-left: -15px;
   -webkit-box-pack: center !important;
   -webkit-justify-content: center !important;
-  justify-content: center !important;
-}
+  justify-content: center !important; }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
 
 .cards-container {
   width: 100%;
@@ -35,12 +33,12 @@ a {
   flex-wrap: wrap;
   -webkit-box-pack: center !important;
   -webkit-justify-content: center !important;
-  justify-content: center !important;
-}
+  justify-content: center !important; }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
 
 .card-container {
   position: relative;
@@ -56,21 +54,17 @@ a {
   -webkit-flex-direction: column;
   flex-direction: column;
   min-width: 0;
-  padding: 15px;
-}
+  padding: 15px; }
 
 .card {
   padding: 1.25rem;
   word-wrap: break-word;
   border-radius: 15px;
-  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.3);
-}
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3); }
 
 @media (min-width: 992px) {
   .card-container {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.3333333333%;
     flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
-  }
-}
+    max-width: 33.3333333333%; } }
