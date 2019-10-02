@@ -2,7 +2,9 @@ title: Home Page
 preset: page
 pages: false
 options:
-  changeStatus: false
+  changeStatus:
+    *: false
+    admin: true
   changeSlug:
     *: false
     admin: true
@@ -103,6 +105,10 @@ fields:
           title:
             label: Title of the events area
             type: text
+          limitBy:
+            label: Maximum number of visible events
+            type: number
+            after: Events
       news:
         name: News
         preview:

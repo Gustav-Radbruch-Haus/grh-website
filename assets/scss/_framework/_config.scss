@@ -1,0 +1,94 @@
+// Site Colors
+// -----------------------
+// Main
+$primary: black;
+$secondary: #5cd4db;
+$tertiary: #5669db;
+$quaternary: #94df57;
+
+// Shades
+$black: #333333;
+$grey: lighten($black, 50%);
+$light-grey: lighten($black, 75%);
+$white: white;
+// Site background
+$site-bg: $white;
+// Header background
+$header-bg: transparent;
+// Post Background
+$post-bg: transparent;
+// Footer background
+$footer-bg: $white;
+// Border colors
+$border-color: $primary;
+
+// Special colors
+$normal: #8dae28;
+$required: #e9573f;
+$info: #37bc9b;
+$success: #8cc152;
+$warning: #f6bb42;
+$error: #da4453;
+$disabled: $light-grey;
+$highlighted: #ffe7aa;
+
+$normal-hover: #a0bb61;
+$required-hover: #fc6e51;
+$info-hover: #48cfad;
+$success-hover: #a0d468;
+$warning-hover: #ffce54;
+$error-hover: #ed5565;
+$disabled-hover: $grey;
+
+// Social Media colors
+$xing: #0b6463;
+$skype: #1db0ed;
+$linkedin: #2487ba;
+
+// Typography
+// ----------------------
+// Body Font family
+$body-font: "opensansregular", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
+// Text Font Family
+$text-font: $body-font;
+// Heading font family
+$heading-font: "opensansregular", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
+// Special Font Family
+$special-font: "Helvetica Neue Light", "Helvetica Light", $body-font;
+// Main Navigation Size
+$heading-text-size: 30px;
+// Body text size
+$body-text-size: 14px;
+// Title text size
+$title-text-size: 38px;
+// Site heading color
+$headinng-color: $primary;
+// Site Text color
+$text-color: $black;
+// Link colors
+$link-color: $primary;
+$link-color-hover: $secondary;
+
+// Site Structure
+// ---------------------
+// Header padding
+$header-padding: 28px 0;
+// Standard content width for maximum experience :-)
+$max-width: 900px;
+$min-width: 0;
+// Breakpoints for responsivnessssss!
+$breakpoint-tablet: 950px;
+$breakpoint-phablet: 767px;
+$breakpoint-smartphone: 380px;
+// Margin (used for top or bottom of most elements
+$margin: 40px;
+
+$border-radius: 15px;
+$border-size: 1px;
+
+// Grid settings
+$grid-system: 12;
+$grid-padding: 40px;
+
+// Wrap-Padding
+$wrap-padding: $grid-padding/2;

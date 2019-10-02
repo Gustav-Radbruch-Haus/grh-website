@@ -1,0 +1,17 @@
+Title: Groups
+
+----
+
+Headline: 
+
+----
+
+Text: 
+
+----
+
+Securedpageenabled: true
+
+----
+
+Securedpageroles: shc_member, editor, admin, user

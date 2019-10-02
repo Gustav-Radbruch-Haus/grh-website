@@ -1,5 +1,24 @@
-<?php snippet('header') ?>
+<!doctype html>
+<html lang="en">
+<head>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <title><?= $site->title() ?> | <?= $page->title() ?></title>
+
+  <?= css(['assets/css/screen.css?v='.time(), '@auto']) ?>
+
+</head>
+<body>
+<div class="cover">
+  <?= snippet('cover', ['data' => $page]) ?>
+</div>
+<main>
+  <div>
+  <div class="logo">
+  <?= asset('assets/images/logo.svg'); ?>
+</div>
 <form method="post" action="<?= $page->url() ?>" class="form">
   <?php if($error): ?>
   <div class="error-text">
@@ -23,7 +42,8 @@
   </div>
   <?php echo csrf_field() ?>
 </form>
-
+</div>
+</main>
 <script>
 let select = document.getElementById("role");
 let emailfield = document.getElementById("email");

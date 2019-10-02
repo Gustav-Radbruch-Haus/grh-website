@@ -1,0 +1,26 @@
+@import "events.scss";
+@import "_framework/config";
+
+.cover {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+      height: 450px;
+    }
+
+    @media screen and (max-width: $breakpoint-phablet) {
+      height: 400px;
+    }
+
+    @media screen and (max-width: $breakpoint-smartphone) {
+      height: 350px;
+    }
+  }
+}
+
+main {
+  padding-top: 1.5rem !important;
+}

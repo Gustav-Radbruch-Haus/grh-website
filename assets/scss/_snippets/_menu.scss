@@ -1,0 +1,29 @@
+.menu {
+  display: inline-block;
+  margin-left: auto;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    margin-left: 20px;
+
+    @media screen and (max-width: $breakpoint-smartphone) {
+      margin-left: 12px;
+    }
+  }
+  a {
+    font-weight: bold;
+    padding: 15px 0;
+    display: block;
+
+    @media screen and (max-width: $breakpoint-smartphone) {
+      padding: 10px 0;
+    }
+  }
+  [aria-current] {
+    font-weight: bold;
+    color: $secondary;
+  }
+}

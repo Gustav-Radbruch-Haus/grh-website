@@ -14,6 +14,14 @@ fields:
   text: 
     label: Text
     type: markdown
+  cover : 
+    label: Cover image
+    type: files
+    multiple: false
+    query: page.images
+    width: 1 / 2
+    cover: true
+
   alert:
     label: Alert text
     type: text

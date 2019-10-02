@@ -1,0 +1,70 @@
+.card {
+  margin-bottom: 20px;
+  > a > div {
+    border: 1px solid $light-grey;
+    border-radius: $border-radius;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.15s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+
+    &:hover {
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+
+    @media screen and (max-width: $breakpoint-phablet) {
+      height: 250px;
+    }
+
+    @media screen and (max-width: $breakpoint-smartphone) {
+      height: 200px;
+    }
+  }
+
+  .card-content {
+    padding: 1.25rem;
+    word-wrap: break-word;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &.cover {
+    > a > div {
+      height: 300px;
+
+      @media screen and (max-width: $breakpoint-phablet) {
+        height: 250px;
+      }
+
+      @media screen and (max-width: $breakpoint-smartphone) {
+        height: 200px;
+      }
+    }
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      background: rgba(0, 0, 0, 0.58);
+    }
+  }
+}

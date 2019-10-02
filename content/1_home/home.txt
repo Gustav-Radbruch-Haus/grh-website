@@ -10,6 +10,8 @@ Blocks:
 
 - 
   title: 🎉 Next events at GRH
+  limitby: 3
+  maxnumber: 1
   _key: events
   _uid: events_1561617190850_340
 - 
