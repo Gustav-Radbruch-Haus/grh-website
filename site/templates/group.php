@@ -1,7 +1,9 @@
 <?php snippet('header') ?>
+<?php if ($page->cover()->isNotEmpty()): ?>
 <div class="cover">
   <?= snippet('cover', ['data' => $page]) ?>
 </div>
+<?php endif ?>
 <main>
   <header class="intro">
     <h1><?= $page->title() ?></h1>
