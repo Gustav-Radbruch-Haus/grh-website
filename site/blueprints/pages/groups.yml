@@ -1,6 +1,7 @@
 title: Groups
 icon: 👥
 files: false
+num : zero
 pages:
   template:
     - group
