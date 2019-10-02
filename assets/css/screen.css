@@ -1495,7 +1495,7 @@ main {
 
 .card {
   margin-bottom: 20px; }
-  .card > a > div {
+  .card .card-body {
     border: 1px solid #f2f2f2;
     border-radius: 15px;
     overflow: hidden;
@@ -1506,7 +1506,7 @@ main {
     transition-duration: 0.15s;
     transition-property: all;
     transition-timing-function: ease-out; }
-    .card > a > div:hover {
+    .card .card-body:hover {
       box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6); }
   .card img {
     width: 100%;
@@ -1522,12 +1522,15 @@ main {
     padding: 1.25rem;
     word-wrap: break-word; }
   .card a {
-    text-decoration: none; }
+    text-decoration: none;
+    display: block; }
   .card h2 {
     margin: 0;
     padding: 0;
     font-size: 18px;
     font-weight: bold; }
+  .card h3 {
+    font-size: 14px; }
   .card.cover > a > div {
     height: 300px; }
     @media screen and (max-width: 767px) {

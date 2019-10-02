@@ -47,16 +47,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/blocks/text.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/blocks/text.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/css/ie.css": {
 		"aP": 1,
 		"bl": 0,
@@ -602,9 +592,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/css/screen.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -706,9 +696,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/css/news.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		}

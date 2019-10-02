@@ -1,11 +1,10 @@
-<section class="card cover column large-4 small-6">
+<article class="card article">
     <a href="<?=$data->url()?>">
         <div class="card-body">
-            <?=snippet('cover', ['data' => $data])?>
             <div class="card-content">
                 <h2><?=$data->title()?></h2>
-                <div class="label"><?=$data->typeName()?></div>
+                <time><?=$data->date()->toDate('d F Y')?></time>
             </div>
         </div>
     </a>
-</section>
+</article>

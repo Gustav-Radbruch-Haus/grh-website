@@ -1,10 +1,14 @@
 <<<<<<< Updated upstream
 body {
   padding: 10px;
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 =======
 /*
+=======
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+>>>>>>> 94aedaad137c66f2121c0ae7860eb3009eaf71ca
 
 Theme Name: GRH Hamburg Website
 Theme URI: https://grh-hamburg.de
@@ -179,8 +183,7 @@ blockquote {
 a {
 <<<<<<< Updated upstream
   color: currentColor;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .cards-container {
   width: 100%;
@@ -193,15 +196,21 @@ a {
   margin-left: -15px;
   -webkit-box-pack: center !important;
   -webkit-justify-content: center !important;
-  justify-content: center !important;
-}
+  justify-content: center !important; }
 
+<<<<<<< HEAD
 *, *::before, *::after {
   box-sizing: border-box;
 }
 =======
   color: black;
   text-decoration: underline; }
+=======
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+>>>>>>> 94aedaad137c66f2121c0ae7860eb3009eaf71ca
 
 a:hover,
 a:focus,
@@ -1415,9 +1424,9 @@ button,
   flex-wrap: wrap;
   -webkit-box-pack: center !important;
   -webkit-justify-content: center !important;
-  justify-content: center !important;
-}
+  justify-content: center !important; }
 
+<<<<<<< HEAD
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -1460,6 +1469,12 @@ button,
     padding: 0;
     text-decoration: none; }
 >>>>>>> Stashed changes
+=======
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+>>>>>>> 94aedaad137c66f2121c0ae7860eb3009eaf71ca
 
 .page {
   padding-bottom: 120px; }
@@ -1497,21 +1512,20 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column;
   min-width: 0;
-  padding: 15px;
-}
+  padding: 15px; }
 
 .card {
   padding: 1.25rem;
   word-wrap: break-word;
   border-radius: 15px;
-  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.3);
-}
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3); }
 
 @media (min-width: 992px) {
   .card-container {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.3333333333%;
     flex: 0 0 33.3333333333%;
+<<<<<<< HEAD
     max-width: 33.3333333333%;
   }
 }
@@ -1675,3 +1689,6 @@ aside {
 body {
   padding: 10px; }
 >>>>>>> Stashed changes
+=======
+    max-width: 33.3333333333%; } }
+>>>>>>> 94aedaad137c66f2121c0ae7860eb3009eaf71ca
